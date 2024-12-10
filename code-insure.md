@@ -1,12 +1,11 @@
+````
 pipeline {
     agent any
     tools {
         maven 'ap-maven'
     }
-    
-    
-    
-    
+
+
     stages{
         stage("Code-Pull"){
         steps{
